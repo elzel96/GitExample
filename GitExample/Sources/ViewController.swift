@@ -7,7 +7,13 @@
 
 import UIKit
 
-class ViewController: UIView {
+class ViewController: UIViewController {
+    
+    private lazy var button: UIButton = {
+        let button: UIButton()
+        
+        return button
+    }()
     
 }
 
