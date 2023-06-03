@@ -8,12 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-
+    
+    private lazy var button: UIButton = {
+        let button: UIButton()
+        
+        return button
+    }()
+    
 }
 
